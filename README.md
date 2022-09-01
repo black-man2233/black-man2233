@@ -9,8 +9,8 @@ I've began to code in the year 2021, with Python. I Switched to C# in January 20
 * 🌍  I'm based in Denmark
 * 🖥️  See my portfolio at [My Portfolio.](https://starlit-paletas-3e21af.netlify.app/index.html)
 * ✉️  You can contact me at [kevi3758@gmail.com.](mailto:kevi3758@gmail.com.)
-* 🚀  I'm currently working on [My Portfolio.](http://github.com/black-man2233/MyPortfolio)
-* 🧠  I'm learning C# and .Net in general.
+* 🚀  I'm currently working on [WPF software](http://github.com/black-man2233/)
+* 🧠  I'm learning C# and .Net Core.
 * 🤝  I'm open to collaborating on any development project, regardless of the framework.
 * ⚡  Stack Overflow is GOATED.
 
