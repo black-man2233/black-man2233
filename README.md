@@ -4,7 +4,7 @@ Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-912
 Software Developer.
 -------------------
 
-I began to code in the year 2021, with Python. I Switched to C# in January 2022, because i've found C# more interesting than Python. My goal is to code Softwares that can solve some daily problems.
+I began to code in the year 2021, with Python. I Switched to C# in January 2022, because i find C# more interesting than Python. My goal is to code Softwares that can solve daily problems.
 
 * 🌍  I'm based in Denmark
 * 🖥️  See my portfolio at [My Portfolio.](https://starlit-paletas-3e21af.netlify.app/index.html)
