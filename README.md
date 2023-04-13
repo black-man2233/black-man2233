@@ -37,7 +37,7 @@ I began to code in the year 2021, with Python. I Switched to C# in January 2022,
 
 <a href="http://www.github.com/black-man2233"><img src="https://github-readme-streak-stats.herokuapp.com/?user=black-man2233&stroke=ffffff&background=312e81&ring=a855f7&fire=a855f7&currStreakNum=ffffff&currStreakLabel=a855f7&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
 
-<a href="http://www.github.com/black-man2233"><img src="https://activity-graph.herokuapp.com/graph?username=black-man2233&bg_color=312e81&color=ffffff&line=a855f7&point=ffffff&area_color=312e81&area=true&hide_border=true&custom_title=GitHub%20Commits%20Graph" alt="GitHub Commits Graph" /></a>
+<a href="https://github.com/black-man2233" align="left"><img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=black-man2233&theme=tokyonight" alt="Top Languages" /></a>
 
 <a href="https://github.com/black-man2233" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=black-man2233&langs_count=10&title_color=a855f7&text_color=ffffff&icon_color=a855f7&bg_color=312e81&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
