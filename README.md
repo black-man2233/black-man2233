@@ -1,3 +1,15 @@
+<b>My GitHub Stats</b>
+
+[//]: # ()
+[//]: # (<a href="http://www.github.com/black-man2233"><img src="https://github-readme-stats.vercel.app/api?username=black-man2233&show_icons=true&hide=&count_private=true&title_color=a855f7&text_color=ffffff&icon_color=a855f7&bg_color=312e81&hide_border=true&show_icons=true" alt="black-man2233's GitHub stats" /></a>)
+
+[//]: # ()
+[//]: # (<a href="http://www.github.com/black-man2233"><img src="https://github-readme-streak-stats.herokuapp.com/?user=black-man2233&stroke=ffffff&background=312e81&ring=a855f7&fire=a855f7&currStreakNum=ffffff&currStreakLabel=a855f7&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>)
+
+<a href="https://github.com/black-man2233" align="left"><img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=black-man2233&theme=tokyonight" alt="Top Languages" /></a>
+
+<a href="https://github.com/black-man2233" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=black-man2233&langs_count=10&title_color=a855f7&text_color=ffffff&icon_color=a855f7&bg_color=312e81&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
+
 Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Kevin Bamwesa.
 ======================================================================================================================================
 
@@ -28,18 +40,6 @@ I began to code in the year 2021, with Python. I Switched to C# in January 2022,
 ### Socials
 
 <p align="left"> <a href="https://www.dev.to/blackman2233" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/devdotto.svg" width="32" height="32" /></a> <a href="https://discord.com/users/Simp-Lord#9440" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/discord.svg" width="32" height="32" /></a> <a href="https://www.facebook.com/kevin.bamwesablckmn.5" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/facebook.svg" width="32" height="32" /></a> <a href="https://www.github.com/black-man2233" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/github.svg" width="32" height="32" /></a> <a href="http://www.instagram.com/simplord003" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/instagram.svg" width="32" height="32" /></a> <a href="https://www.linkedin.com/in/kevin-bamwesa-5b7546188/" target="_blank" rel="noreferrer"><img src="https://raw.githubusercontent.com/danielcranney/readme-generator/main/public/icons/socials/linkedin.svg" width="32" height="32" /></a></p>
-
-### Badges
-
-<b>My GitHub Stats</b>
-
-<a href="http://www.github.com/black-man2233"><img src="https://github-readme-stats.vercel.app/api?username=black-man2233&show_icons=true&hide=&count_private=true&title_color=a855f7&text_color=ffffff&icon_color=a855f7&bg_color=312e81&hide_border=true&show_icons=true" alt="black-man2233's GitHub stats" /></a>
-
-<a href="http://www.github.com/black-man2233"><img src="https://github-readme-streak-stats.herokuapp.com/?user=black-man2233&stroke=ffffff&background=312e81&ring=a855f7&fire=a855f7&currStreakNum=ffffff&currStreakLabel=a855f7&sideNums=ffffff&sideLabels=ffffff&dates=ffffff&hide_border=true" /></a>
-
-<a href="https://github.com/black-man2233" align="left"><img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=black-man2233&theme=tokyonight" alt="Top Languages" /></a>
-
-<a href="https://github.com/black-man2233" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=black-man2233&langs_count=10&title_color=a855f7&text_color=ffffff&icon_color=a855f7&bg_color=312e81&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
 ### Support Me
 
