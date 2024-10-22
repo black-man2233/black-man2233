@@ -1,6 +1,8 @@
 ![Header](https://user-images.githubusercontent.com/10498744/210012254-234538ff-d198-48aa-8964-37e6fd45d227.gif)
 
-
+Software Developer.
+-------------------
+* ⚡  Stack Overflow is GOATED.
 
 
 <!--- 
@@ -15,22 +17,6 @@
 <a href="https://github.com/black-man2233" align="left"><img src="http://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=black-man2233&theme=tokyonight" alt="Top Languages" /></a>
 <a href="https://github.com/black-man2233" align="left"><img src="https://github-readme-stats.vercel.app/api/top-langs/?username=black-man2233&langs_count=10&title_color=a855f7&text_color=ffffff&icon_color=a855f7&bg_color=312e81&hide_border=true&locale=en&custom_title=Top%20%Languages" alt="Top Languages" /></a>
 
-Hi ![](https://user-images.githubusercontent.com/18350557/176309783-0785949b-9127-417c-8b55-ab5a4333674e.gif)My name is Kevin Bamwesa.
-======================================================================================================================================
-
-Software Developer.
--------------------
-
-I began to code in the year 2021, with Python. I Switched to C# in January 2022, because i find C# more interesting than Python. My goal is to code Softwares that can solve daily problems.
-
-* 🌍  I'm based in Denmark
-* 🖥️  See my portfolio at [My Portfolio.](https://my-portfolio-five-pink.vercel.app/)
-* ✉️  You can contact me at [kevi3758@gmail.com.](mailto:kevi3758@gmail.com.)
-* 🚀  I'm currently working on [WPF software](http://github.com/black-man2233/)
-* 🧠  I'm learning C# and .Net Core.
-* 🤝  I'm open to collaborating on any development project, regardless of the framework.
-* ⚡  Stack Overflow is GOATED.
--->
 
 ### Skills
 
@@ -51,3 +37,6 @@ I began to code in the year 2021, with Python. I Switched to C# in January 2022,
 ### Support Me
 
 <a href="https://www.buymeacoffee.com/simplord03"><img src="https://cdn.buymeacoffee.com/buttons/v2/default-yellow.png" width="200" /></a>
+
+-->
+
