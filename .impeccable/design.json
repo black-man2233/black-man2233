@@ -1,0 +1,546 @@
+{
+  "schemaVersion": 2,
+  "generatedAt": "2026-10-15T07:22:27+00:00",
+  "title": "Design System: Kevin's living room (GitHub profile)",
+  "extensions": {
+    "colorMeta": {
+      "autumn": {
+        "role": "primary",
+        "displayName": "Autumn Backlight",
+        "canonical": "#F97316",
+        "tonalRamp": [
+          "#190500",
+          "#401700",
+          "#6C2D01",
+          "#9C4301",
+          "#CE5C05",
+          "#FF7820",
+          "#FFB691",
+          "#FFEADF"
+        ]
+      },
+      "autumn-text": {
+        "role": "primary",
+        "displayName": "Autumn Text",
+        "canonical": "#FDBA74",
+        "tonalRamp": [
+          "#150800",
+          "#381E00",
+          "#5F3802",
+          "#8A5302",
+          "#B17329",
+          "#D6964F",
+          "#FDBA74",
+          "#FEEBD8"
+        ]
+      },
+      "lamp-amber": {
+        "role": "secondary",
+        "displayName": "Lamp Amber",
+        "canonical": "#FFB46B",
+        "tonalRamp": [
+          "#150700",
+          "#391E00",
+          "#613601",
+          "#8C5101",
+          "#B67020",
+          "#DB9349",
+          "#FFB875",
+          "#FEEBD9"
+        ]
+      },
+      "wall": {
+        "role": "neutral",
+        "displayName": "Panelled Wall",
+        "canonical": "#3A2416",
+        "tonalRamp": [
+          "#170600",
+          "#351F11",
+          "#543C2D",
+          "#745B4C",
+          "#977C6C",
+          "#BB9F8E",
+          "#E0C2B1",
+          "#FEEADE"
+        ]
+      },
+      "wall-dark": {
+        "role": "neutral",
+        "displayName": "Panelled Wall, Ceiling",
+        "canonical": "#2A190F",
+        "tonalRamp": [
+          "#160701",
+          "#322016",
+          "#513D32",
+          "#715C51",
+          "#937D71",
+          "#B7A093",
+          "#DCC4B6",
+          "#FEEADF"
+        ]
+      },
+      "wood": {
+        "role": "neutral",
+        "displayName": "Oak Wood",
+        "canonical": "#7A4A28",
+        "tonalRamp": [
+          "#170600",
+          "#3C1A00",
+          "#623411",
+          "#855432",
+          "#A97552",
+          "#CD9874",
+          "#F4BC97",
+          "#FFEADD"
+        ]
+      },
+      "wood-light": {
+        "role": "neutral",
+        "displayName": "Oak Wood, Lit Top",
+        "canonical": "#9C6538",
+        "tonalRamp": [
+          "#160700",
+          "#3B1C00",
+          "#643401",
+          "#885325",
+          "#AC7447",
+          "#D19769",
+          "#F7BB8C",
+          "#FEEADC"
+        ]
+      },
+      "wood-dark": {
+        "role": "neutral",
+        "displayName": "Oak Wood, Shadow",
+        "canonical": "#4E2E18",
+        "tonalRamp": [
+          "#170600",
+          "#3A1C05",
+          "#5A3923",
+          "#7C5841",
+          "#9E7961",
+          "#C39C83",
+          "#E8C0A6",
+          "#FEEADD"
+        ]
+      },
+      "carpet": {
+        "role": "neutral",
+        "displayName": "Navy Carpet",
+        "canonical": "#1A2744",
+        "tonalRamp": [
+          "#020823",
+          "#172441",
+          "#334160",
+          "#516182",
+          "#7182A5",
+          "#94A5CA",
+          "#B7C9EF",
+          "#E7EFFE"
+        ]
+      },
+      "carpet-deep": {
+        "role": "neutral",
+        "displayName": "Navy Carpet, Deep",
+        "canonical": "#121C33",
+        "tonalRamp": [
+          "#03091F",
+          "#1A243C",
+          "#36425B",
+          "#54617D",
+          "#75829F",
+          "#97A5C3",
+          "#BAC9E9",
+          "#E7EFFF"
+        ]
+      },
+      "board-glass": {
+        "role": "neutral",
+        "displayName": "Smoked Board Glass",
+        "canonical": "rgba(20, 27, 46, 0.62)",
+        "tonalRamp": [
+          "#050A1B",
+          "#1D2438",
+          "#394157",
+          "#586178",
+          "#78829A",
+          "#9AA5BE",
+          "#BEC9E3",
+          "#E8EEFE"
+        ]
+      },
+      "dock-top": {
+        "role": "neutral",
+        "displayName": "Dock Navy, Top",
+        "canonical": "#26324F",
+        "tonalRamp": [
+          "#030922",
+          "#192440",
+          "#34415F",
+          "#536181",
+          "#7382A4",
+          "#95A5C8",
+          "#B9C9EE",
+          "#E7EFFE"
+        ]
+      },
+      "dock-bottom": {
+        "role": "neutral",
+        "displayName": "Dock Navy, Bottom",
+        "canonical": "#18213A",
+        "tonalRamp": [
+          "#040920",
+          "#1B243D",
+          "#37415D",
+          "#55617E",
+          "#7582A1",
+          "#98A5C5",
+          "#BBC9EA",
+          "#E8EEFF"
+        ]
+      },
+      "screen": {
+        "role": "neutral",
+        "displayName": "Screen Black",
+        "canonical": "#1A1F2E",
+        "tonalRamp": [
+          "#070A18",
+          "#1F2434",
+          "#3C4152",
+          "#5A6173",
+          "#7B8295",
+          "#9DA5B8",
+          "#C1C9DD",
+          "#E9EEFE"
+        ]
+      },
+      "screen-deep": {
+        "role": "neutral",
+        "displayName": "Screen Black, Deep",
+        "canonical": "#0C0F18",
+        "tonalRamp": [
+          "#080B13",
+          "#21252F",
+          "#3E424D",
+          "#5D616D",
+          "#7E828E",
+          "#A0A5B2",
+          "#C4C9D6",
+          "#E9EEFC"
+        ]
+      },
+      "cream": {
+        "role": "neutral",
+        "displayName": "Cream Lettering",
+        "canonical": "#F6ECDD",
+        "tonalRamp": [
+          "#100A02",
+          "#2B2419",
+          "#494135",
+          "#686053",
+          "#8A8173",
+          "#ADA496",
+          "#D1C8B9",
+          "#F7EDDE"
+        ]
+      },
+      "cream-2": {
+        "role": "neutral",
+        "displayName": "Cream Lettering, Secondary",
+        "canonical": "#C9B9A3",
+        "tonalRamp": [
+          "#130900",
+          "#2F2311",
+          "#4D402D",
+          "#6D5F4B",
+          "#8F806B",
+          "#B2A28D",
+          "#D7C7B0",
+          "#FDECD5"
+        ]
+      },
+      "cream-3": {
+        "role": "neutral",
+        "displayName": "Cream Lettering, Tertiary",
+        "canonical": "#A08F7A",
+        "tonalRamp": [
+          "#130900",
+          "#302210",
+          "#4E3F2C",
+          "#6E5E4B",
+          "#907F6B",
+          "#B3A28D",
+          "#D8C6B0",
+          "#FEEBD5"
+        ]
+      },
+      "rim": {
+        "role": "neutral",
+        "displayName": "Rim Cream",
+        "canonical": "#FFF0DC",
+        "tonalRamp": [
+          "#130900",
+          "#2E2314",
+          "#4C4030",
+          "#6C5F4E",
+          "#8D806E",
+          "#B1A390",
+          "#D5C7B3",
+          "#FBECD8"
+        ]
+      },
+      "rule": {
+        "role": "neutral",
+        "displayName": "Etched Rule",
+        "canonical": "rgba(246, 236, 221, 0.12)",
+        "tonalRamp": [
+          "#100A02",
+          "#2B2419",
+          "#494135",
+          "#686053",
+          "#8A8173",
+          "#ADA496",
+          "#D1C8B9",
+          "#F7EDDE"
+        ]
+      },
+      "leader": {
+        "role": "neutral",
+        "displayName": "Dotted Leader",
+        "canonical": "rgba(246, 236, 221, 0.24)",
+        "tonalRamp": [
+          "#100A02",
+          "#2B2419",
+          "#494135",
+          "#686053",
+          "#8A8173",
+          "#ADA496",
+          "#D1C8B9",
+          "#F7EDDE"
+        ]
+      },
+      "floor-backend": {
+        "role": "tertiary",
+        "displayName": "Backend Floor Dot",
+        "canonical": "#A78BFA",
+        "tonalRamp": [
+          "#0F002A",
+          "#2D0162",
+          "#4A258C",
+          "#6849B1",
+          "#896BD7",
+          "#AB8FFE",
+          "#CBBFFE",
+          "#EFECFE"
+        ]
+      },
+      "floor-frontend": {
+        "role": "tertiary",
+        "displayName": "Frontend Floor Dot",
+        "canonical": "#4FC08D",
+        "tonalRamp": [
+          "#000F07",
+          "#012D1C",
+          "#004F33",
+          "#06744D",
+          "#1B9969",
+          "#4CBE8B",
+          "#74E3AE",
+          "#C3FFDF"
+        ]
+      },
+      "floor-games": {
+        "role": "tertiary",
+        "displayName": "Games Floor Dot",
+        "canonical": "#60A5FA",
+        "tonalRamp": [
+          "#000B1F",
+          "#00244D",
+          "#024180",
+          "#1961B0",
+          "#3F83D6",
+          "#62A7FD",
+          "#A5CCFE",
+          "#E4F0FE"
+        ]
+      }
+    },
+    "typographyMeta": {
+      "display": {
+        "displayName": "Display",
+        "purpose": "KEVIN on the TV only, cream over a blurred autumn halo copy."
+      },
+      "suite": {
+        "displayName": "Suite",
+        "purpose": "Project years, tabular, right-aligned at the end of each dotted leader."
+      },
+      "title": {
+        "displayName": "Title",
+        "purpose": "Project names in the directory board."
+      },
+      "body": {
+        "displayName": "Body",
+        "purpose": "TV subtitle and the lounge fact line, cream-2, centred."
+      },
+      "label": {
+        "displayName": "Label",
+        "purpose": "Expanded-caps signage: floor heads, TOOLBOX, BACKEND, the lounge motto."
+      },
+      "meta": {
+        "displayName": "Meta",
+        "purpose": "Language after a project name, floor notes, floor counts, toolbox items."
+      }
+    },
+    "shadows": [
+      {
+        "name": "soft",
+        "value": "feDropShadow dx=0 dy=14 stdDeviation=12 flood=#000000 opacity=0.45",
+        "purpose": "TV, speakers, stand, sofa, coffee table, and the board (masked to fall outside the glass)."
+      },
+      {
+        "name": "small",
+        "value": "feDropShadow dx=0 dy=6 stdDeviation=4 flood=#000000 opacity=0.45",
+        "purpose": "Pads, turntable, record sleeves, shelf top."
+      },
+      {
+        "name": "dock-lip",
+        "value": "3px rect, #000000 at 0.16, under the pill",
+        "purpose": "The dock's only lift."
+      },
+      {
+        "name": "halo",
+        "value": "feGaussianBlur stdDeviation=9 on an autumn copy at 0.55",
+        "purpose": "Backlight behind KEVIN on the TV."
+      }
+    ],
+    "motion": [
+      {
+        "name": "platter-spin",
+        "value": "rotate 360deg, 1.8s linear infinite; none under prefers-reduced-motion: reduce",
+        "purpose": "The turntable record. The only motion in the profile."
+      }
+    ],
+    "breakpoints": [
+      {
+        "name": "compact",
+        "value": "640px",
+        "purpose": "<picture><source media=\"(max-width: 640px)\"> swaps each scene and the top-languages card to its 600-wide twin."
+      }
+    ]
+  },
+  "components": [
+    {
+      "name": "Directory Board",
+      "kind": "card",
+      "refersTo": "directory-board",
+      "description": "Smoked navy glass board on the carpet listing projects by floor; the core content pattern.",
+      "html": "<div class=\"ds-carpet\"><div class=\"ds-board\"><div class=\"ds-floor-head\"><span class=\"ds-dot\" style=\"background:#A78BFA\"></span><span class=\"ds-sign\">BACKEND</span><span class=\"ds-note\">C# / .NET</span><span class=\"ds-count\">2</span></div><div class=\"ds-row\"><span class=\"ds-name\">HomeServer.NET</span><span class=\"ds-meta\">C#</span><span class=\"ds-leader\"></span><span class=\"ds-year\">2026</span></div><div class=\"ds-row\"><span class=\"ds-name\">TODOAPI</span><span class=\"ds-meta\">C#</span><span class=\"ds-leader\"></span><span class=\"ds-year\">2025</span></div><div class=\"ds-plaque\"><span class=\"ds-sign ds-sign-2\">TOOLBOX</span><span class=\"ds-tools\">Docker · Linux · SQLite · Git</span></div></div></div>",
+      "css": ".ds-carpet{background:linear-gradient(#1A2744,#121C33);padding:28px;border-radius:24px;font-family: Archivo, 'Archivo Variable', sans-serif;} .ds-board{background:rgba(20,27,46,0.62) linear-gradient(rgba(255,180,107,0.07),rgba(255,180,107,0) 35%);border:1.5px solid rgba(255,240,220,0.22);border-radius:30px;padding:34px 40px 30px;box-shadow:0 14px 24px rgba(0,0,0,0.45);color:#F6ECDD} .ds-floor-head{display:flex;align-items:baseline;gap:12px;padding-bottom:12px;border-bottom:1px solid rgba(246,236,221,0.12)} .ds-dot{width:8px;height:8px;border-radius:50%;align-self:center} .ds-sign{font-weight:700;font-stretch:125%;letter-spacing:0.16em;font-size:14px} .ds-sign-2{color:#C9B9A3} .ds-note{color:#A08F7A;font-size:14px;font-weight:450} .ds-count{margin-left:auto;color:#A08F7A;font-size:13px;font-variant-numeric:tabular-nums} .ds-row{display:flex;align-items:baseline;gap:10px;height:56px;line-height:56px} .ds-name{font-size:21px;font-weight:500} .ds-meta{font-size:14px;color:#A08F7A;letter-spacing:0.02em} .ds-leader{flex:1;border-bottom:1.4px dotted rgba(246,236,221,0.24);transform:translateY(-6px)} .ds-year{font-size:33px;font-weight:450;font-stretch:112%;letter-spacing:-0.02em;font-variant-numeric:tabular-nums} .ds-plaque{margin-top:26px;padding-top:24px;border-top:1px solid rgba(246,236,221,0.12);display:flex;gap:22px;align-items:baseline} .ds-tools{color:#C9B9A3;font-size:15px;font-weight:450} .ds-row:hover .ds-name{color:#FDBA74}"
+    },
+    {
+      "name": "TV Title",
+      "kind": "custom",
+      "refersTo": "tv-title",
+      "description": "The TV on the wall: KEVIN with an autumn halo, the entrance line and the subtitle.",
+      "html": "<div class=\"ds-tv\"><div class=\"ds-tv-title\">KEVIN</div><div class=\"ds-tv-line\"><span class=\"ds-tv-dot\"></span><span class=\"ds-tv-label\">BACKEND</span><span>C# / .NET</span></div><div class=\"ds-tv-sub\">a little frontend on the side</div></div>",
+      "css": ".ds-tv{font-family: Archivo, 'Archivo Variable', sans-serif;background:radial-gradient(ellipse at 50% 0,rgba(249,115,22,0.32),rgba(249,115,22,0) 70%),linear-gradient(#1A1F2E,#0C0F18);border:9px solid #0E0D0D;border-radius:12px;padding:48px 24px 40px;text-align:center;color:#F6ECDD;box-shadow:0 0 120px rgba(249,115,22,0.24),0 14px 24px rgba(0,0,0,0.45)} .ds-tv-title{font-size:66px;font-weight:600;font-stretch:112%;letter-spacing:0.08em;line-height:1;text-shadow:0 0 18px rgba(249,115,22,0.55)} .ds-tv-line{margin-top:22px;display:flex;gap:10px;justify-content:center;align-items:baseline;font-size:17px;font-weight:500} .ds-tv-dot{width:9px;height:9px;border-radius:50%;background:#F97316;align-self:center} .ds-tv-label{color:#FDBA74;font-weight:700;font-stretch:125%;letter-spacing:0.16em;font-size:14px} .ds-tv-sub{margin-top:12px;color:#C9B9A3;font-size:14px;font-weight:450}"
+    },
+    {
+      "name": "Social Dock",
+      "kind": "nav",
+      "refersTo": "dock-segment",
+      "description": "Floating navy glass pill of social links; on GitHub it is assembled from per-icon SVG segments with no whitespace between them.",
+      "html": "<nav class=\"ds-dock\"><a href=\"#\" title=\"Instagram\"><svg viewBox=\"0 0 24 24\"><rect x=\"3\" y=\"3\" width=\"18\" height=\"18\" rx=\"5\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/><circle cx=\"12\" cy=\"12\" r=\"4\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg></a><a href=\"#\" title=\"X\"><svg viewBox=\"0 0 24 24\"><path d=\"M4 4l16 16M20 4L4 20\" stroke=\"currentColor\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></svg></a><span class=\"ds-dock-div\"></span><a href=\"#\" title=\"Email\"><svg viewBox=\"0 0 24 24\"><path d=\"M3 6h18v12H3zM3 6l9 7 9-7\" fill=\"none\" stroke=\"currentColor\" stroke-width=\"2\"/></svg></a></nav>",
+      "css": ".ds-dock{display:inline-flex;align-items:center;height:44px;padding:0 24px;border-radius:22px;background:linear-gradient(#26324F,#18213A);box-shadow:inset 0 1px 0 rgba(255,240,220,0.38),inset 0 -1px 0 rgba(255,240,220,0.12),0 3px 0 rgba(0,0,0,0.16)} .ds-dock a{display:flex;align-items:center;justify-content:center;width:52px;height:44px;color:rgba(246,236,221,0.9);transition:color .15s} .ds-dock svg{width:20px;height:20px} .ds-dock a:hover,.ds-dock a:focus-visible{color:#FDBA74;outline:none} .ds-dock a:focus-visible svg{filter:drop-shadow(0 0 4px rgba(255,180,107,0.8))} .ds-dock-div{width:1px;height:18px;background:rgba(246,236,221,0.16)}"
+    },
+    {
+      "name": "Stats Card",
+      "kind": "card",
+      "refersTo": "stats-card",
+      "description": "Third-party stats card themed onto the carpet through URL params.",
+      "html": "<div class=\"ds-stats\"><div class=\"ds-stats-title\">Kevin's GitHub stats</div><div class=\"ds-stats-row\"><span>Total PRs</span><b>59</b></div><div class=\"ds-stats-row\"><span>Total issues</span><b>3</b></div><div class=\"ds-ring\">C+</div></div>",
+      "css": ".ds-stats{font-family: Archivo, 'Archivo Variable', sans-serif;position:relative;background:#1A2744;border-radius:24px;padding:22px 26px;color:#C9B9A3;width:360px;font-size:13px} .ds-stats-title{color:#F6ECDD;font-weight:700;font-size:16px;margin-bottom:12px} .ds-stats-row{display:flex;gap:16px;line-height:22px} .ds-stats-row b{color:#C9B9A3} .ds-ring{position:absolute;right:28px;top:34px;width:56px;height:56px;border:4px solid #F97316;border-radius:50%;display:flex;align-items:center;justify-content:center;color:#F6ECDD;font-weight:700}"
+    },
+    {
+      "name": "Turntable Platter",
+      "kind": "custom",
+      "refersTo": "room-window",
+      "description": "The only motion: the record spins once per 1.8s and stops under reduced motion.",
+      "html": "<svg class=\"ds-tt\" viewBox=\"0 0 220 140\" width=\"220\"><rect x=\"4\" y=\"16\" width=\"212\" height=\"122\" rx=\"10\" fill=\"#7A4A28\"/><circle cx=\"88\" cy=\"76\" r=\"56\" fill=\"#2B2724\"/><g class=\"ds-platter\"><circle cx=\"88\" cy=\"76\" r=\"52\" fill=\"#121010\"/><circle cx=\"88\" cy=\"76\" r=\"40\" fill=\"none\" stroke=\"#2C2826\" stroke-width=\"0.8\"/><circle cx=\"88\" cy=\"76\" r=\"17\" fill=\"#E9A23B\"/><path d=\"M76 72h24\" stroke=\"#5B2E0E\" stroke-width=\"2.4\" stroke-linecap=\"round\"/></g><path d=\"M182 40 L168 104 L140 112\" fill=\"none\" stroke=\"#CFC8BC\" stroke-width=\"3.2\" stroke-linecap=\"round\"/></svg>",
+      "css": ".ds-platter{transform-box:fill-box;transform-origin:center;animation:ds-spin 1.8s linear infinite} @keyframes ds-spin{to{transform:rotate(360deg)}} @media (prefers-reduced-motion:reduce){.ds-platter{animation:none}}"
+    }
+  ],
+  "narrative": {
+    "northStar": "The Window Into the Living Room",
+    "overview": "The profile is not a page of widgets; it is a set of framed windows onto one warm room. The top window shows the wood-panelled wall with the lamp, the TV that reads KEVIN, speakers, the console stand and the vinyl corner; the carpet below holds a smoked-navy glass directory board listing his real projects by floor (Backend, Frontend, Games). The stats cards sit on the same carpet colour, the dock of socials floats as a glass pill, and the lounge window closes the page at the sofa. The world is inherited from homeserverdash and adapted to a medium with no CSS and no JS.\n\nGitHub's Markdown sanitizer is the defining constraint. Everything the world needs is baked into committed SVG files that `scripts/build_profile.py` generates, with every letter converted to Archivo outlines, so no font loading, no stylesheet and no theme switching can change what renders. Markdown contributes only layout glue: a centred `div`, `<picture>` for the mobile variant, and `<img>` tags.\n\nDensity is calm and directory-like: ruled hairlines, dotted leaders, big tabular years, expanded caps for signage. One thing moves.",
+    "keyCharacteristics": [
+      "One warm theme: wood wall, navy carpet, cream lettering, lamp amber, an autumn-orange backlight.",
+      "Every visual is a generated SVG; text is Archivo outlines, never live text.",
+      "Each image is an opaque, rounded, self-contained window that reads the same on GitHub light and dark.",
+      "Content is a directory (hairlines, dotted leaders, tabular numerals), not a card grid or badge wall.",
+      "The spinning record is the only motion.",
+      "Desktop (1000 wide) and compact (600 wide, one column) variants of each scene, switched by `<picture media=\"(max-width: 640px)\">`."
+    ],
+    "rules": [
+      {
+        "name": "The Light Not Paint Rule",
+        "body": "Autumn and amber appear as glows, halos, rings, dots and one label word. No surface is filled orange.",
+        "section": "colors"
+      },
+      {
+        "name": "The Same Room Rule",
+        "body": "Third-party cards are themed onto the carpet through their URL params (carpet background, cream title and text, amber icons, autumn rings, 24px radius, no border). A widget that cannot take these colours does not ship.",
+        "section": "colors"
+      },
+      {
+        "name": "The Outlines Only Rule",
+        "body": "Text in the art is set as Archivo glyph outlines (`<use>` references into shared path defs), never `<text>`. GitHub serves SVGs through `<img>`, where web fonts do not load.",
+        "section": "typography"
+      },
+      {
+        "name": "The Two Widths Rule",
+        "body": "Expanded caps label things; normal width names things. Never set a project name in expanded caps, never set signage in normal width.",
+        "section": "typography"
+      },
+      {
+        "name": "The Twin Scene Rule",
+        "body": "A scene ships as a 1000-wide and a 600-wide SVG from the same generator functions. The compact one is recomposed, not scaled down.",
+        "section": "layout"
+      },
+      {
+        "name": "The Shadow Stays Outside Rule",
+        "body": "Glass surfaces cast their shadow through a mask so the carpet seen through the board is never darkened.",
+        "section": "elevation"
+      },
+      {
+        "name": "The Seamless Dock Rule",
+        "body": "All dock `<a>` and `<img>` tags sit on one line with no whitespace between them. Any space or newline renders as a gap and splits the pill.",
+        "section": "components"
+      },
+      {
+        "name": "The One Motion Rule",
+        "body": "The turntable is the only animated element in the profile, and it stops under reduced motion. The snake is a separate, external artifact.",
+        "section": "components"
+      }
+    ],
+    "dos": [
+      "Do change the art by editing `scripts/build_profile.py` and regenerating; the generator is the source of truth.",
+      "Do build every new scene as an opaque rounded window (24 desktop, 20 compact) so it reads identically on GitHub light and dark.",
+      "Do ship a 600-wide compact twin for every full-width scene and switch it with `<picture media=\"(max-width: 640px)\">`.",
+      "Do set all art text as Archivo outlines through the Typesetter, expanded caps for signage and normal width for names.",
+      "Do theme any third-party card onto the carpet with cream text and autumn or amber accents via its URL params.",
+      "Do keep the social links pointing at the platform homepages (and the empty `mailto:`) until Kevin fills in his handles.",
+      "Do write a full alt text on each scene image that carries every word the art shows."
+    ],
+    "donts": [
+      "Don't hand-edit anything in `assets/`; the next generator run overwrites it.",
+      "Don't use `<text>` or reference a web font in the SVGs.",
+      "Don't add a light/dark variant or a second theme for the art.",
+      "Don't put whitespace or line breaks between dock segments.",
+      "Don't add a second animation; the turntable is the only motion and must keep its reduced-motion stop.",
+      "Don't invent social handles or drop the dock links.",
+      "Don't fill a surface with autumn orange or lamp amber.",
+      "Don't return to the README kit: capsule wave banners, typing SVGs, badge walls, quote cards, tokyonight-themed cards."
+    ]
+  }
+}
