@@ -9,9 +9,12 @@
 <br />
 
 <img src="https://github-readme-stats.vercel.app/api?username=black-man2233&show_icons=true&count_private=true&custom_title=Kevin%27s%20GitHub%20stats&bg_color=1A2744&title_color=F6ECDD&text_color=C9B9A3&icon_color=FFB46B&ring_color=F97316&hide_border=true&border_radius=24&card_width=495" width="371" alt="Kevin's GitHub stats: commits, pull requests, issues and rank" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=black-man2233&layout=compact&langs_count=6&hide=html,css&card_width=495&bg_color=1A2744&title_color=F6ECDD&text_color=C9B9A3&hide_border=true&border_radius=24" width="439" alt="Most used languages" />
 <picture>
-  <source media="(max-width: 640px)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=black-man2233&background=1A2744&ring=F97316&fire=FFB46B&currStreakNum=F6ECDD&sideNums=F6ECDD&currStreakLabel=FDBA74&sideLabels=C9B9A3&dates=A08F7A&stroke=2E3B5C&hide_border=true&border_radius=24&card_width=400" />
+  <source media="(max-width: 640px)" srcset="https://github-readme-stats.vercel.app/api/top-langs?username=black-man2233&layout=compact&langs_count=6&hide=html,css&card_width=360&bg_color=1A2744&title_color=F6ECDD&text_color=C9B9A3&hide_border=true&border_radius=24" />
+  <img src="https://github-readme-stats.vercel.app/api/top-langs?username=black-man2233&layout=compact&langs_count=6&hide=html,css&card_width=495&bg_color=1A2744&title_color=F6ECDD&text_color=C9B9A3&hide_border=true&border_radius=24" width="439" alt="Most used languages" />
+</picture>
+<picture>
+  <source media="(max-width: 640px)" srcset="https://github-readme-streak-stats.herokuapp.com/?user=black-man2233&background=1A2744&ring=F97316&fire=FFB46B&currStreakNum=F6ECDD&sideNums=F6ECDD&currStreakLabel=FDBA74&sideLabels=C9B9A3&dates=A08F7A&stroke=2E3B5C&hide_border=true&border_radius=24&card_width=400&date_format=j.n.y" />
   <img src="https://github-readme-streak-stats.herokuapp.com/?user=black-man2233&background=1A2744&ring=F97316&fire=FFB46B&currStreakNum=F6ECDD&sideNums=F6ECDD&currStreakLabel=FDBA74&sideLabels=C9B9A3&dates=A08F7A&stroke=2E3B5C&hide_border=true&border_radius=24&card_width=810" width="814" alt="GitHub contribution streak" />
 </picture>
 

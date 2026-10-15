@@ -44,5 +44,5 @@ C#/.NET backend developer, with some frontend work (Vue). That identity should r
 
 1. **Personal over performative.** Write for Kevin and his friends, not a recruiter checklist. Real touches from his life beat generic dev-profile decoration.
 2. **Identity first.** ".NET backend, a bit of frontend" should come through before any badge wall.
-3. **Truthful content only.** No placeholder links, invented stats or fake claims.
+3. **Truthful content only.** No invented stats, handles or claims. The social links stay as platform homepages until Kevin fills in his handles.
 4. **Fun, but it has to work.** Add playful extras only if they render reliably in both GitHub themes.
