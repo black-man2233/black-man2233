@@ -1,24 +1,17 @@
 <div align="center">
 
 <!-- Animated banner -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kevin&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Welcome%20to%20my%20corner%20of%20the%20internet&descAlignY=52&descAlign=50" />
-
-<!-- Typing animation -->
-<a href="https://git.io/typing-svg">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=28&duration=3000&pause=1000&color=A855F7&center=true&vCenter=true&multiline=true&repeat=true&width=700&height=100&lines=Full+Stack+Developer+%F0%9F%9A%80;Open+Source+Enthusiast+%F0%9F%8C%9F;Always+Learning%2C+Always+Building+%F0%9F%94%A5;Coffee+%2B+Code+%3D+Magic+%E2%98%95%F0%9F%92%AB" alt="Typing SVG" />
-</a>
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=180&section=header&text=Kevin&fontSize=42&fontColor=fff&animation=twinkling&fontAlignY=32&desc=Welcome%20to%20my%20corner%20of%20the%20internet&descAlignY=52&descAlign=50" alt="Kevin — welcome to my corner of the internet" />
 
 ---
 
-<!-- Visitor badge + profile views -->
-<img src="https://komarev.com/ghpvc/?username=black-man2233&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
 <img src="https://img.shields.io/github/followers/black-man2233?label=Followers&style=for-the-badge&color=purple&labelColor=black" alt="Followers" />
 
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30"> About Me
+## <img src="https://media.giphy.com/media/hvRJCLFzcasrR4ia7z/giphy.gif" width="30" alt=""> About Me
 
 ```typescript
 const blackMan2233 = {
@@ -37,7 +30,7 @@ const blackMan2233 = {
 
 ---
 
-## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30"> Tech Stack
+## <img src="https://media2.giphy.com/media/QssGEmpkyEOhBCb7e1/giphy.gif?cid=ecf05e47a0n3gi1bfqntqmob8g9aid1oyj2wr3ds3mg700bl&rid=giphy.gif" width="30" alt=""> Tech Stack
 
 <div align="center">
 
@@ -78,27 +71,23 @@ const blackMan2233 = {
 
 ---
 
-## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30"> GitHub Stats
+## <img src="https://media.giphy.com/media/iY8CRBdQXODJSCERIr/giphy.gif" width="30" alt=""> GitHub Stats
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=black-man2233&hide_title=false&hide_rank=false&show_icons=true&include_all_commits=true&count_private=true&disable_animations=false&theme=tokyonight&locale=en&hide_border=false&border_radius=10" height="165" alt="stats graph" />
-<img src="https://github-readme-stats.vercel.app/api/top-langs?username=black-man2233&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=tokyonight&hide_border=false&border_radius=10" height="165" alt="languages graph" />
+<img src="https://github-readme-stats.vercel.app/api?username=black-man2233&show_icons=true&count_private=true&custom_title=Kevin%27s%20GitHub%20stats&theme=tokyonight&border_radius=10" height="165" alt="Kevin's GitHub stats: commits, pull requests, issues and rank" />
+<img src="https://github-readme-stats.vercel.app/api/top-langs?username=black-man2233&locale=en&hide_title=false&layout=compact&card_width=320&langs_count=6&theme=tokyonight&hide_border=false&border_radius=10" height="165" alt="Most used languages" />
 
 <br/>
 
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=black-man2233&theme=tokyonight&hide_border=false&border_radius=10" height="165" alt="streak stats" />
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=black-man2233&theme=tokyonight&hide_border=false&border_radius=10" height="165" alt="GitHub contribution streak" />
 
-<br/>
-
-<!-- Activity Graph -->
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=black-man2233&theme=tokyo-night&hide_border=false&border_radius=10&area=true" width="95%" alt="activity graph" />
 
 </div>
 
 ---
 
-## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30"> Connect With Me
+## <img src="https://media.giphy.com/media/LnQjpWaON8nhr21vNW/giphy.gif" width="30" alt=""> Connect With Me
 
 <div align="center">
 
@@ -114,24 +103,14 @@ const blackMan2233 = {
 
 ---
 
-## <img src="https://media.giphy.com/media/WUlplcMpOCEmTGBtBW/giphy.gif" width="30"> Random Dev Quote
-
-<div align="center">
-
-![Quote](https://quotes-github-readme.vercel.app/api?type=horizontal&theme=tokyonight)
-
-</div>
-
----
-
-## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="30"> Contribution Snake
+## <img src="https://media.giphy.com/media/cj87CxfRtrUifF3Ryk/giphy.gif" width="30" alt=""> Contribution Snake
 
 <div align="center">
 
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/black-man2233/black-man2233/output/github-contribution-grid-snake-dark.svg" />
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/black-man2233/black-man2233/output/github-contribution-grid-snake.svg" />
-  <img alt="Snake animation" src="https://raw.githubusercontent.com/black-man2233/black-man2233/output/snake.svg" />
+  <img alt="Snake eating Kevin's contribution graph" src="https://raw.githubusercontent.com/black-man2233/black-man2233/output/github-contribution-grid-snake.svg" />
 </picture>
 
 </div>
@@ -141,7 +120,7 @@ const blackMan2233 = {
 <div align="center">
 
 <!-- Footer wave -->
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" />
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=gradient&customColorList=6,11,20&height=120&section=footer&animation=twinkling" alt="" />
 
 **Made with ❤️ and way too much caffeine**
 
