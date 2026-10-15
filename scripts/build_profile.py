@@ -166,7 +166,7 @@ def shared_defs() -> str:
         f'<radialGradient id="tv-glow"><stop offset="0" stop-color="{ACCENT}" stop-opacity="0.24"/>'
         f'<stop offset="1" stop-color="{ACCENT}" stop-opacity="0"/></radialGradient>'
         f'<radialGradient id="lamp-glow"><stop offset="0" stop-color="{LAMP}" stop-opacity="0.5"/>'
-        f'<stop offset="0.55" stop-color="#FFA05A" stop-opacity="0.18"/><stop offset="1" stop-color="#FFA05A" stop-opacity="0"/></radialGradient>'
+        f'<stop offset="0.55" stop-color="#FFA05A" stop-opacity="0.26"/><stop offset="1" stop-color="#FFA05A" stop-opacity="0"/></radialGradient>'
         '<linearGradient id="screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1A1F2E"/>'
         '<stop offset="1" stop-color="#0C0F18"/></linearGradient>'
         f'<radialGradient id="screen-wash" cx="0.5" cy="0" r="0.9"><stop offset="0" stop-color="{ACCENT}" stop-opacity="0.32"/>'
@@ -340,7 +340,9 @@ def stand(x: float, y: float, w: float, floor: float, body_h: float) -> str:
     legs_y = body_y + body_h
     parts.append(f'<rect x="{x + 28}" y="{legs_y}" width="11" height="{floor - legs_y}" fill="{WOOD_DARK}"/>'
                  f'<rect x="{x + w - 39}" y="{legs_y}" width="11" height="{floor - legs_y}" fill="{WOOD_DARK}"/>')
-    parts.append(f'<rect x="{x}" y="{y}" width="{w}" height="{top_h}" rx="4" fill="url(#wood-top)"/>'
+    grain = "".join(f'<rect x="{grain_x}" y="{y + 1}" width="2" height="{top_h - 2}" fill="#000000" fill-opacity="0.09"/>'
+                    for grain_x in range(int(x) + 6, int(x + w) - 6, 14))
+    parts.append(f'<rect x="{x}" y="{y}" width="{w}" height="{top_h}" rx="4" fill="url(#wood-top)"/>{grain}'
                  f'<rect x="{x + 3}" y="{y + 1}" width="{w - 6}" height="1" fill="#FFDCB4" fill-opacity="0.25"/>')
     return "".join(parts)
 
@@ -481,7 +483,10 @@ def plaque(ts: Typesetter, x: float, y: float, w: float, style: BoardStyle, wrap
 
 
 def board_frame(x: float, y: float, w: float, h: float, radius: float) -> str:
-    return (f'<g filter="url(#soft-shadow)"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{radius}" fill="#141B2E" fill-opacity="0.62"/></g>'
+    shadow_mask = (f'<mask id="board-outside" maskUnits="userSpaceOnUse"><rect x="{x - 80}" y="{y - 80}" width="{w + 160}" height="{h + 160}" fill="#FFFFFF"/>'
+                   f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{radius}" fill="#000000"/></mask>')
+    return (f'{shadow_mask}<g mask="url(#board-outside)"><g filter="url(#soft-shadow)"><rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{radius}" fill="#141B2E"/></g></g>'
+            f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{radius}" fill="#141B2E" fill-opacity="0.62"/>'
             f'<rect x="{x}" y="{y}" width="{w}" height="{h}" rx="{radius}" fill="url(#board-wash)"/>'
             f'<rect x="{x + 0.75}" y="{y + 0.75}" width="{w - 1.5}" height="{h - 1.5}" rx="{radius}" fill="none" stroke="url(#board-rim)" stroke-width="1.5"/>')
 
