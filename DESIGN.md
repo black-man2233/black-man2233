@@ -23,9 +23,6 @@ colors:
   rim: "#FFF0DC"
   rule: "rgba(246, 236, 221, 0.12)"
   leader: "rgba(246, 236, 221, 0.24)"
-  floor-backend: "#A78BFA"
-  floor-frontend: "#4FC08D"
-  floor-games: "#60A5FA"
 typography:
   display:
     fontFamily: "Archivo (set as outlines)"
@@ -152,14 +149,13 @@ Density is calm and directory-like: ruled hairlines, dotted leaders, big tabular
 Warm wood above, cool navy below, cream on both, with orange used as light rather than as paint.
 
 ### Primary
-- **Autumn Backlight** (autumn): the TV halo behind KEVIN, the screen wash, the dot of the entrance line, and the stats rank and streak rings. It glows; it never fills a surface.
+- **Autumn Backlight** (autumn): the TV halo behind KEVIN, the screen wash, and the stats rank and streak rings. It glows; it never fills a surface.
 - **Autumn Text** (autumn-text): the one tinted word on the TV, the expanded-caps BACKEND label; also the streak card's current-streak label.
 
 ### Secondary
 - **Lamp Amber** (lamp-amber): the floor lamp's light pool, the faint warm wash at the top of the board, and the icon colour in the stats card. Ambient light only.
 
 ### Tertiary
-- **Floor Dots** (floor-backend, floor-frontend, floor-games): one small dot per directory floor, the only place category hues appear. They are markers, never text or fills.
 
 ### Neutral
 - **Panelled Wall** (wall, wall-dark): vertical wall gradient, dark at the ceiling, with 64px plank seams and faint 9px grain.
@@ -172,7 +168,7 @@ Warm wood above, cool navy below, cream on both, with orange used as light rathe
 - **Rule and Leader** (rule, leader): 1px etched rules under floor heads and above the toolbox; dotted leaders between a project and its year.
 
 ### Named Rules
-**The Light Not Paint Rule.** Autumn and amber appear as glows, halos, rings, dots and one label word. No surface is filled orange.
+**The Light Not Paint Rule.** Autumn and amber appear as glows, halos, rings and one label word. No surface is filled orange.
 
 **The Same Room Rule.** Third-party cards are themed onto the carpet through their URL params (carpet background, cream title and text, amber icons, autumn rings, 24px radius, no border). A widget that cannot take these colours does not ship.
 
@@ -234,7 +230,7 @@ Self-contained, opaque, rounded scene. The wall, carpet and board are painted ed
 Smoked glass at 0.62 over the carpet, a top-down amber wash fading by 35%, a diagonal cream rim (0.42 to 0.08 to 0.16). Each floor: dot, expanded-caps title, normal-width note in cream-3, tabular count right-aligned, then a double hairline (cream 0.12 over white 0.03). Each row: name, language, dotted leader, year. Closes with the TOOLBOX plaque, items joined by spaced middle dots.
 
 ### TV
-Black bezel (rx 12), screen gradient with an autumn wash from the top and a pale diagonal glare. KEVIN in display; below it a dot plus BACKEND in autumn-text label caps followed by "C# / .NET" in cream; then the subtitle in cream-2. A broad autumn glow sits on the wall behind the set.
+Black bezel (rx 12), screen gradient with an autumn wash from the top and a pale diagonal glare. KEVIN in display; below it BACKEND in autumn-text label caps followed by "C# / .NET" in cream; then the subtitle in cream-2. A broad autumn glow sits on the wall behind the set.
 
 ### Dock
 A liquid-glass pill of socials built from separate images: `dock-left.svg` (24 wide cap), one 52-wide segment per platform with a 20px cream icon at 0.9, and `dock-right.svg`. Hairline dividers sit before Email and before Ko-fi, grouping social, contact and support. Each segment is its own link with `title` and `alt`; the caps are `alt=""` and live inside the first and last anchors.
@@ -269,4 +265,5 @@ The vinyl corner's platter (`.platter`) rotates once every 1.8s, linear, infinit
 - **Don't** add a second animation; the turntable is the only motion and must keep its reduced-motion stop.
 - **Don't** invent social handles or drop the dock links.
 - **Don't** fill a surface with autumn orange or lamp amber.
+- **Don't** put coloured dots or glowing markers before titles. Kevin rejected them (2026-10-15); floor heads are plain expanded caps.
 - **Don't** return to the README kit: capsule wave banners, typing SVGs, badge walls, quote cards, tokyonight-themed cards.

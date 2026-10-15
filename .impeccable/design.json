@@ -318,51 +318,6 @@
           "#D1C8B9",
           "#F7EDDE"
         ]
-      },
-      "floor-backend": {
-        "role": "tertiary",
-        "displayName": "Backend Floor Dot",
-        "canonical": "#A78BFA",
-        "tonalRamp": [
-          "#0F002A",
-          "#2D0162",
-          "#4A258C",
-          "#6849B1",
-          "#896BD7",
-          "#AB8FFE",
-          "#CBBFFE",
-          "#EFECFE"
-        ]
-      },
-      "floor-frontend": {
-        "role": "tertiary",
-        "displayName": "Frontend Floor Dot",
-        "canonical": "#4FC08D",
-        "tonalRamp": [
-          "#000F07",
-          "#012D1C",
-          "#004F33",
-          "#06744D",
-          "#1B9969",
-          "#4CBE8B",
-          "#74E3AE",
-          "#C3FFDF"
-        ]
-      },
-      "floor-games": {
-        "role": "tertiary",
-        "displayName": "Games Floor Dot",
-        "canonical": "#60A5FA",
-        "tonalRamp": [
-          "#000B1F",
-          "#00244D",
-          "#024180",
-          "#1961B0",
-          "#3F83D6",
-          "#62A7FD",
-          "#A5CCFE",
-          "#E4F0FE"
-        ]
       }
     },
     "typographyMeta": {
@@ -442,8 +397,8 @@
       "kind": "custom",
       "refersTo": "tv-title",
       "description": "The TV on the wall: KEVIN with an autumn halo, the entrance line and the subtitle.",
-      "html": "<div class=\"ds-tv\"><div class=\"ds-tv-title\">KEVIN</div><div class=\"ds-tv-line\"><span class=\"ds-tv-dot\"></span><span class=\"ds-tv-label\">BACKEND</span><span>C# / .NET</span></div><div class=\"ds-tv-sub\">a little frontend on the side</div></div>",
-      "css": ".ds-tv{font-family: Archivo, 'Archivo Variable', sans-serif;background:radial-gradient(ellipse at 50% 0,rgba(249,115,22,0.32),rgba(249,115,22,0) 70%),linear-gradient(#1A1F2E,#0C0F18);border:9px solid #0E0D0D;border-radius:12px;padding:48px 24px 40px;text-align:center;color:#F6ECDD;box-shadow:0 0 120px rgba(249,115,22,0.24),0 14px 24px rgba(0,0,0,0.45)} .ds-tv-title{font-size:66px;font-weight:600;font-stretch:112%;letter-spacing:0.08em;line-height:1;text-shadow:0 0 18px rgba(249,115,22,0.55)} .ds-tv-line{margin-top:22px;display:flex;gap:10px;justify-content:center;align-items:baseline;font-size:17px;font-weight:500} .ds-tv-dot{width:9px;height:9px;border-radius:50%;background:#F97316;align-self:center} .ds-tv-label{color:#FDBA74;font-weight:700;font-stretch:125%;letter-spacing:0.16em;font-size:14px} .ds-tv-sub{margin-top:12px;color:#C9B9A3;font-size:14px;font-weight:450}"
+      "html": "<div class=\"ds-tv\"><div class=\"ds-tv-title\">KEVIN</div><div class=\"ds-tv-line\"><span class=\"ds-tv-label\">BACKEND</span><span>C# / .NET</span></div><div class=\"ds-tv-sub\">a little frontend on the side</div></div>",
+      "css": ".ds-tv{font-family: Archivo, 'Archivo Variable', sans-serif;background:radial-gradient(ellipse at 50% 0,rgba(249,115,22,0.32),rgba(249,115,22,0) 70%),linear-gradient(#1A1F2E,#0C0F18);border:9px solid #0E0D0D;border-radius:12px;padding:48px 24px 40px;text-align:center;color:#F6ECDD;box-shadow:0 0 120px rgba(249,115,22,0.24),0 14px 24px rgba(0,0,0,0.45)} .ds-tv-title{font-size:66px;font-weight:600;font-stretch:112%;letter-spacing:0.08em;line-height:1;text-shadow:0 0 18px rgba(249,115,22,0.55)} .ds-tv-line{margin-top:22px;display:flex;gap:10px;justify-content:center;align-items:baseline;font-size:17px;font-weight:500} .ds-tv-label{color:#FDBA74;font-weight:700;font-stretch:125%;letter-spacing:0.16em;font-size:14px} .ds-tv-sub{margin-top:12px;color:#C9B9A3;font-size:14px;font-weight:450}"
     },
     {
       "name": "Social Dock",
@@ -484,7 +439,7 @@
     "rules": [
       {
         "name": "The Light Not Paint Rule",
-        "body": "Autumn and amber appear as glows, halos, rings, dots and one label word. No surface is filled orange.",
+        "body": "Autumn and amber appear as glows, halos, rings and one label word. No surface is filled orange.",
         "section": "colors"
       },
       {

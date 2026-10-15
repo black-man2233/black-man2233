@@ -38,24 +38,23 @@ class Project:
 class Floor:
     title: str
     note: str
-    dot: str
     projects: tuple[Project, ...]
 
 
 FLOORS = (
-    Floor("Backend", "C# / .NET", "#A78BFA", (
+    Floor("Backend", "C# / .NET", (
         Project("HomeServer.NET", "C#", 2026),
         Project("mydash", "C#", 2026),
         Project("TODOAPI", "C#", 2025),
         Project("TelegramMods", "C#", 2025),
         Project("CopyMyShit", "C#", 2025),
     )),
-    Floor("Frontend", "a little", "#4FC08D", (
+    Floor("Frontend", "a little", (
         Project("homeserverdash", "Vue", 2026),
         Project("Studieplusplus", "JavaScript", 2026),
         Project("biak-next", "Vue", 2026),
     )),
-    Floor("Games", "Godot", "#60A5FA", (
+    Floor("Games", "Godot", (
         Project("Kimpocalypse", "GDScript", 2024),
     )),
 )
@@ -284,10 +283,9 @@ def tv(ts: Typesetter, x: float, y: float, w: float, h: float, title_size: float
     stack = "C# / .NET"
     label_size = line_size * 0.82
     gap = line_size * 0.7
-    dot_r = line_size * 0.26
     label_w = ts.width(label, label_size, 700, 125, 0.16)
     stack_w = ts.width(stack, line_size, 500)
-    line_w = dot_r * 2 + gap * 0.6 + label_w + gap + stack_w
+    line_w = label_w + gap + stack_w
     line_x = cx - line_w / 2
     line_y = title_y + line_size * 2.3
     sub_y = line_y + line_size * 1.75
@@ -302,9 +300,8 @@ def tv(ts: Typesetter, x: float, y: float, w: float, h: float, title_size: float
         f"{glare}"
         + ts.text(title, cx, title_y, title_size, 600, ACCENT, 112, 0.08, "middle", opacity=0.55, extra=' filter="url(#halo)"')
         + ts.text(title, cx, title_y, title_size, 600, CREAM, 112, 0.08, "middle")
-        + f'<circle cx="{line_x + dot_r}" cy="{line_y - label_size * 0.36}" r="{dot_r}" fill="{ACCENT}"/>'
-        + ts.text(label, line_x + dot_r * 2 + gap * 0.6, line_y, label_size, 700, ACCENT_TEXT, 125, 0.16)
-        + ts.text(stack, line_x + dot_r * 2 + gap * 0.6 + label_w + gap, line_y, line_size, 500, CREAM)
+        + ts.text(label, line_x, line_y, label_size, 700, ACCENT_TEXT, 125, 0.16)
+        + ts.text(stack, line_x + label_w + gap, line_y, line_size, 500, CREAM)
         + ts.text("a little frontend on the side", cx, sub_y, line_size * 0.82, 450, CREAM_2, anchor="middle")
     )
 
@@ -425,11 +422,9 @@ def floor_height(floor: Floor, style: BoardStyle) -> float:
 
 def board_floor(ts: Typesetter, floor: Floor, x: float, y: float, w: float, style: BoardStyle) -> str:
     parts = []
-    dot_r = style.head * 0.27
     head_y = y + style.head
     title = floor.title.upper()
-    parts.append(f'<circle cx="{x + dot_r}" cy="{head_y - style.head * 0.37}" r="{dot_r}" fill="{floor.dot}"/>')
-    title_x = x + dot_r * 2 + style.head * 0.9
+    title_x = x
     parts.append(ts.text(title, title_x, head_y, style.head, 700, CREAM, 125, 0.16))
     title_w = ts.width(title, style.head, 700, 125, 0.16)
     parts.append(ts.text(floor.note, title_x + title_w + style.head * 0.8, head_y, style.head, 450, CREAM_3, tracking=0.02))
