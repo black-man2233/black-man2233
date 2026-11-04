@@ -43,26 +43,19 @@ class Floor:
 
 FLOORS = (
     Floor("Backend", "C# / .NET", (
-        Project("HomeServer.NET", "C#", 2026),
-        Project("mydash", "C#", 2026),
-        Project("TODOAPI", "C#", 2025),
-        Project("TelegramMods", "C#", 2025),
-        Project("CopyMyShit", "C#", 2025),
+        Project("StudiePlusPlus", "ASP.NET Core", 2026),
     )),
     Floor("Frontend", "a little", (
         Project("homeserverdash", "Vue", 2026),
-        Project("Studieplusplus", "JavaScript", 2026),
-        Project("biak-next", "Vue", 2026),
-    )),
-    Floor("Games", "Godot", (
-        Project("Kimpocalypse", "GDScript", 2024),
     )),
 )
 
 TOOLBOX = ("Docker", "Linux", "SQLite", "GraphQL", "Python", "Git", "GitHub Actions", "JetBrains")
 
 SOCIALS = (
+    ("bamwesa", "bamwesa.org"),
     ("instagram", "Instagram"),
+    ("snapchat", "Snapchat"),
     ("discord", "Discord"),
     ("x", "X"),
     ("linkedin", "LinkedIn"),
@@ -70,7 +63,8 @@ SOCIALS = (
     ("kofi", "Ko-fi"),
     ("paypal", "PayPal"),
 )
-DOCK_DIVIDERS_BEFORE = ("gmail", "kofi")
+DOCK_DIVIDERS_BEFORE = ("instagram", "gmail", "kofi")
+EVENODD_ICONS = ("bamwesa",)
 
 
 class Typesetter:
@@ -500,7 +494,7 @@ def build_room(ts: Typesetter) -> str:
     col_w = (board_w - pad_x * 2 - col_gap) / 2
     left_x = board_x + pad_x
     right_x = left_x + col_w + col_gap
-    columns = ((FLOORS[0],), (FLOORS[1], FLOORS[2]))
+    columns = ((FLOORS[0],), (FLOORS[1],))
     board_parts = []
     column_bottoms = []
     for column, col_x in zip(columns, (left_x, right_x)):
@@ -667,7 +661,8 @@ def build_dock_segment(name: str, label: str) -> str:
     scale = icon_size / 24
     ix = (width - icon_size) / 2
     iy = PILL_TOP + (PILL_H - icon_size) / 2
-    icon = f'<path transform="translate({ix} {iy}) scale({scale:.4f})" d="{icon_path(name)}" fill="{CREAM}" fill-opacity="0.9"/>'
+    rule = ' fill-rule="evenodd"' if name in EVENODD_ICONS else ""
+    icon = f'<path transform="translate({ix} {iy}) scale({scale:.4f})" d="{icon_path(name)}"{rule} fill="{CREAM}" fill-opacity="0.9"/>'
     return svg_document(width, DOCK_H, label, dock_fill(width) + divider + icon, DOCK_DEFS)
 
 

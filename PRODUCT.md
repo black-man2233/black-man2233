@@ -37,12 +37,13 @@ C#/.NET backend developer, with some frontend work (Vue). That identity should r
 ## Evidence on Hand
 
 - Existing `README.md`: tech list (C#, Python, JS/TS, .NET, Vue, Bootstrap, Docker, Godot, Linux), stats widgets, snake.
-- **Social links point at platform homepages on purpose** (`instagram.com`, `discord.com`, `linkedin.com`, `twitter.com`, `ko-fi.com`, `paypal.com`, empty `mailto:`). Kevin will fill in his own handles (decided 2026-10-15). Keep these as they are; never invent handles or drop them.
+- **Social handles come from the portfolio** (`portfolio/src/content.js`, live at https://bamwesa.org): Instagram and Snapchat `Zimplykevin`, X `KevinBamwesa`, LinkedIn `kevinbamwesa03`, email `kevi3758@gmail.com` (synced 2026-11-04). Discord, Ko-fi and PayPal have no known handle and stay as platform homepages. Never invent handles.
+- **Projects mirror the portfolio's Work room**: only homeserverdash and StudiePlusPlus (curated 2026-11-04).
 - Not yet confirmed for the profile: specific personal projects, interests or music to feature.
 
 ## Product Principles
 
 1. **Personal over performative.** Write for Kevin and his friends, not a recruiter checklist. Real touches from his life beat generic dev-profile decoration.
 2. **Identity first.** ".NET backend, a bit of frontend" should come through before any badge wall.
-3. **Truthful content only.** No invented stats, handles or claims. The social links stay as platform homepages until Kevin fills in his handles.
+3. **Truthful content only.** No invented stats, handles or claims. Social links use only handles Kevin has published on his portfolio.
 4. **Fun, but it has to work.** Add playful extras only if they render reliably in both GitHub themes.

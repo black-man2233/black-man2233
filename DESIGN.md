@@ -130,7 +130,7 @@ components:
 
 **Creative North Star: "The Window Into the Living Room"**
 
-The profile is not a page of widgets; it is a set of framed windows onto one warm room. The top window shows the wood-panelled wall with the lamp, the TV that reads KEVIN, speakers, the console stand and the vinyl corner; the carpet below holds a smoked-navy glass directory board listing his real projects by floor (Backend, Frontend, Games). The stats cards sit on the same carpet colour, the dock of socials floats as a glass pill, and the lounge window closes the page at the sofa. The world is inherited from homeserverdash and adapted to a medium with no CSS and no JS.
+The profile is not a page of widgets; it is a set of framed windows onto one warm room. The top window shows the wood-panelled wall with the lamp, the TV that reads KEVIN, speakers, the console stand and the vinyl corner; the carpet below holds a smoked-navy glass directory board listing his real projects by floor (Backend, Frontend). The stats cards sit on the same carpet colour, the dock of socials floats as a glass pill, and the lounge window closes the page at the sofa. The world is inherited from homeserverdash and adapted to a medium with no CSS and no JS.
 
 GitHub's Markdown sanitizer is the defining constraint. Everything the world needs is baked into committed SVG files that `scripts/build_profile.py` generates, with every letter converted to Archivo outlines, so no font loading, no stylesheet and no theme switching can change what renders. Markdown contributes only layout glue: a centred `div`, `<picture>` for the mobile variant, and `<img>` tags.
 
@@ -233,7 +233,7 @@ Smoked glass at 0.62 over the carpet, a top-down amber wash fading by 35%, a dia
 Black bezel (rx 12), screen gradient with an autumn wash from the top and a pale diagonal glare. KEVIN in display; below it BACKEND in autumn-text label caps followed by "C# / .NET" in cream; then the subtitle in cream-2. A broad autumn glow sits on the wall behind the set.
 
 ### Dock
-A liquid-glass pill of socials built from separate images: `dock-left.svg` (24 wide cap), one 52-wide segment per platform with a 20px cream icon at 0.9, and `dock-right.svg`. Hairline dividers sit before Email and before Ko-fi, grouping social, contact and support. Each segment is its own link with `title` and `alt`; the caps are `alt=""` and live inside the first and last anchors.
+A liquid-glass pill of socials built from separate images: `dock-left.svg` (24 wide cap), one 52-wide segment per platform with a 20px cream icon at 0.9, and `dock-right.svg`. Hairline dividers sit before Instagram, before Email and before Ko-fi, grouping portfolio, social, contact and support. The portfolio segment uses a monochrome take on the bamwesa.org wooden-TV terminal mark. Each segment is its own link with `title` and `alt`; the caps are `alt=""` and live inside the first and last anchors.
 
 ### Stats Cards
 github-readme-stats and streak-stats themed through URL params onto the carpet (see The Same Room Rule), `hide_border=true`, `border_radius=24`. Top languages hides only HTML and CSS; the data is shown as it is.
@@ -254,7 +254,7 @@ The vinyl corner's platter (`.platter`) rotates once every 1.8s, linear, infinit
 - **Do** ship a 600-wide compact twin for every full-width scene and switch it with `<picture media="(max-width: 640px)">`.
 - **Do** set all art text as Archivo outlines through the Typesetter, expanded caps for signage and normal width for names.
 - **Do** theme any third-party card onto the carpet with cream text and autumn or amber accents via its URL params.
-- **Do** keep the social links pointing at the platform homepages (and the empty `mailto:`) until Kevin fills in his handles.
+- **Do** take social handles from the portfolio; platforms without a known handle stay as homepages.
 - **Do** write a full alt text on each scene image that carries every word the art shows.
 
 ### Don't:
